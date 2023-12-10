@@ -1,0 +1,5 @@
+// there is an API, user calls it and pass an cids of array to it
+// service will cache this array somewhere and fetch files from IPFS according to this array members
+// this details that service fetchs from IPFS should be written on disk
+// after that service opens all this files and check if name is unique or duplicated
+// if it finds a duplicated file, it will remove it
